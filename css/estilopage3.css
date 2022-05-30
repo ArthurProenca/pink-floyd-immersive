@@ -1,0 +1,70 @@
+div#meio{
+	margin-top: 5%;
+	background-color: white;
+	position: relative;
+	width: 100%;	
+	display: inline-block;
+	text-align: center;
+}
+
+div#interface div#meio h1{
+	font-family:'Rock Salt', cursive;
+	color: #170301;
+	padding-bottom: 3%;
+	animation-duration: 0.7s;
+	animation-name: surgir;
+}
+
+div#meio div.imagem div.capa input{
+	position: relative;
+	font-family: Arial, sans-serif;
+	font-size: 13pt;
+	width: 165px;
+	height: 35px;
+	background-color: rgba(255,255,255, 1);
+	margin-top: 250px;
+}
+
+div#meio div.imagem div.capa p{
+	color: white; 
+}
+
+div#meio div.imagem div.capa h3{
+	color: white; 
+}
+
+
+.album{
+	width: 100%;
+	height: 100%;
+	transition:0.5s;
+
+}
+
+.imagem {
+  	position: relative;
+  	width: 20%;
+	height: 20%;
+	display: inline-flex; 
+	margin:10px;
+		
+}
+
+.capa {
+  	display: none;
+}
+
+.imagem:hover .capa {
+  	display: block;
+  	position: absolute;
+}
+
+.capa {
+  	background: rgba(73,3,3, 0.9);
+  	width: 100%;
+  	height: 100%;
+  	position: absolute;
+  	top: 0;
+}
+
+

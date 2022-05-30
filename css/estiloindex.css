@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body{
+
+}
+
+*{
+   padding: 0px;
+   margin: 0px;
+   border: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	transition:filter .5s;	
+}
+
+a:hover{
+	color: #A90D0F;	
+
+}
+
+div#interface{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+div#interface img{
+	position:relative;
+	width: 100%;
+	height: 100%;
+}

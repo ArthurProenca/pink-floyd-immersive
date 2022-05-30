@@ -1,0 +1,83 @@
+div#meio{
+	margin-top: 5%;
+	position: relative;
+	width: 100%;
+	height: 100%;	
+}
+
+div#meio h1{
+	position: relative;
+	color: black;
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 22pt;
+}
+
+div#meio table#tabela{
+	height: 600px;
+	background-color: white;
+	margin-left: 26%;
+}
+
+div#meio table#tabela tr{
+	text-align: center;
+	background-color: white;
+	width: 100%;
+	height: 40px;
+}
+
+div#meio table#tabela td{
+	text-align: center;
+	width:50%;
+}
+
+div#meio table#tabela td select{
+	border: 2px groove;
+	height: 40px;
+	width: 80%;
+	color: black;
+	background-color: #CFCFCF;
+	padding-left: 10%;
+	font-family: 'Rock Salt', cursive;  
+}
+
+div#meio table#tabela td input#nome{
+	background-color: #CFCFCF;
+	width: 80%;
+	border: 2px groove white;
+	color: black;
+	height: 30px;
+	margin-top: 6%;
+}	
+
+div#meio table#tabela td input#range{
+	width: 80%;
+ 	height: 10px;
+ 	box-shadow: 1px 1px 1px #000000;
+ 	border-radius: 10px;
+  	border: 2px solid black;	
+}
+
+div#meio table#tabela td p{
+	padding: 10px;
+}
+
+div#meio textarea#textarea{
+	resize: none;
+	background-color: #CFCFCF;
+	color: black;
+	border: 2px groove white;
+
+}
+
+div#meio p#numero{
+	margin-top: 0px;
+}
+
+div#meio input#submit{
+	background-color: black;
+	height:40px;
+	margin-top:10px;
+	border-radius:10px;
+	width:60px;
+	color: white;
+}

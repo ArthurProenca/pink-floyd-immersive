@@ -1,0 +1,164 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Khand&display=swap');
+
+
+
+body{
+
+	margin:0px auto;
+}
+
+*{
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	transition:filter .5s;	
+}
+a:hover{
+	color: #A90D0F;	
+
+}
+	
+hr{
+	border-top: 1px groove black;
+    border-bottom: 1px groove black;
+    color: #fff;
+    background-color: #fff;
+    height: 4px;
+    margin-top: 6%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/*Início formatação de header!*/
+
+div#interface header#titulo{
+	font-family: 'Rock Salt', cursive; 
+	font-size:	15pt;
+	position: relative;
+	background-color: #1C1C1C;
+	width: 100%;
+
+}
+
+
+iframe{
+	padding-top: 3%;
+}
+
+div#interface header#titulo h1{
+	color: white;
+	text-indent: 30px; 
+	text-shadow: 3px 4px 5px red;
+	margin-left: 10px;
+}
+
+div#interface header#titulo nav#menu{
+	display: block;
+	font-family: 'Yatra One', cursive;
+	font-size:12pt;
+	position: relative;	
+	float: right;
+}	
+
+
+div#interface header#titulo nav#menu h1{
+	display: none;	
+}
+
+div#interface header#titulo nav#menu ol{
+	list-style: none;
+	position: relative;
+	bottom: 55px;
+	padding-right: 300px;
+	text-indent: 50px; 
+	color: white;
+}
+
+div#interface header#titulo nav#menu ol li{
+	display: inline-block;
+}
+
+
+div#interface{
+	width: 100%;
+	margin: 0px auto;
+	position: relative; 
+
+}
+
+.centralizador{
+	text-align: center;
+}
+
+div#interface footer#rodape{
+	clear:both;
+	border-top:1px dashed rgba(0,0,0,0.3);
+	text-align:center;	
+	background-color: black;	
+	margin-top:7%;
+}
+
+div#interface footer#rodape nav#redes{
+	display:block;	
+}
+
+div#interface footer#rodape nav#redes ol{
+	list-style-type:none;
+	position: relative;
+	right: 10px;	
+}
+
+div#interface footer#rodape nav#redes ol li{
+	display:inline-block;
+	padding:10px;		
+}
+
+div#interface footer#rodape nav#redes ol li img{
+	width:40px;
+	height:40px;
+	transition:filter .5s;	
+}
+
+div#interface footer#rodape nav#redes ol li img:hover{
+	 filter:sepia(100%);
+}
+
+
+div#interface footer#rodape div.rodapefinal{
+	position:relative;
+	color: white;
+	
+}
+
+
+
+
+/*KEYFRAMES*/
+
+@keyframes surgir{
+	from{
+		margin-top: 100%;
+	}
+	to {
+		margin-top: 0%;
+  }	
+}

@@ -1,0 +1,75 @@
+div#meio{
+	margin-top: 3%;
+	position: relative;
+	width: 100%;
+	height: 100%;	
+}
+
+
+div#interface div#meio h1{
+	width: 100%;
+	position: relative;
+	color: #5F54C0;
+	font-family: 'Rock Salt', cursive;
+	font-size: 32pt;
+	text-shadow: 3px 3px #1C1C1C;
+	animation-duration: 0.5s;
+	animation-name: surgir;
+}
+
+div#interface div#meio div#iframe{
+	margin-top: 5%;
+	animation-duration: 0.7s;
+	animation-name: surgir;
+}
+
+div#interface div#meio p#first{
+	font-family: 'Quicksand', sans-serif;
+	color: black;
+	padding-top: 2%;
+	font-size: 30pt;
+	text-align: center;
+	position: relative;
+	margin-left: 8%;
+	margin-right: 8%;
+
+}
+
+div#direita{
+	display: block;
+	padding-top: 3%;
+	padding-left:  50%;
+	padding-right: 20px;
+}
+
+div#esquerda{
+	display: block;
+	padding-right: 50%;
+	padding-left: 20px;
+}
+
+.imagem_d{
+	border-radius: 100%;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+
+.imagem_e{
+	border-radius: 100%;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding-right: 30px;
+
+}
+
+.pdireita{
+	text-align: center;
+}
+
+.pesquerda{
+	text-align: center;
+}

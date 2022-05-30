@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Contato</title>
+		<link rel="stylesheet" type="text/css" href="../css/estilocontato.css">
+		<link rel="stylesheet" type="text/css" href="../css/cssgeral.css">
+		<link rel="icon" type="imagem/jpg" href="../imagens/icon.jpg" />
+		
+	</head>
+
+	<body>
+		<div id="interface">
+
+			<header id="titulo">
+
+				<h1>Pink Floyd</h1>
+				
+
+				<nav id="menu">
+					<h1>Menu principal</h1>
+					<ol>
+						<li><a href="page1.html">Home</a></li>
+						<li><a href="page3.html">Albuns</a></li>
+						<li><a href="integrantes.html">Integrantes</a></li>
+						<li><a href="contato.html">Contato</a></li>					
+					</ol>
+				</nav>
+			</header>
+
+			<div id="meio">
+				<form method="post" action="../PHP/cad.php">
+					
+					<h1 class="centralizador">Chama nois!</h1>
+		
+					<table id="tabela" class="centralizador">
+					
+						<tr>
+							<td>
+								<input type="text" name="nome" size="50" id="nome" placeholder="Digite seu nome" />
+							</td>
+							<td>Album Favorito:
+								<select name="album">
+									<option value="The Dark Side of the Moon">The Dark Side of the Moon</option>
+									<option value="The Wall">The Wall</option>
+									<option value="Animals">Animals</option>
+									<option value="Meddle">Meddle</option>
+									<option value="The Piper at the Gates of Down">The Piper at the Gates of Down</option>
+									<option value="Atom heart Mother">Atom heart Mother</option>
+									<option value="Wish you were Here">Wish you were Here</option>
+									<option value="The Divison Bell">The Divison Bell</option>
+									<option value="Nenhum">Nenhum</option>
+								</select>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<textarea cols="45" rows="5" id="textarea" name="comentario" placeholder="Deixe uma mensagem!"></textarea>
+							</td>
+
+							<td>Nota para o site:<p align="left">Bad :/</p>
+								<input type="range" name="nota" min="0" max="10" step="all" id="range"/>
+								<p align="right">Great :P</p>
+							</td>
+						</tr>
+					</table>
+					
+					<p id="numero" class="centralizador">
+						<input type="checkbox" name="numero"> Deseja  o número do criador?
+						
+					</p>
+					<div class="centralizador">
+						<input type="submit" onclick="alert('Formulário enviado')" value="Enviar" id="submit"/>
+					</div>
+				</form>
+				
+			</div>
+
+			<footer id="rodape">
+				
+				<a href="page1.html"><h1>Pink Floyd™</h1></a>
+				
+				<div class="rodapefinal">
+					<h5>Todos os direitos reservados - <a href="autor.html">Arthur Proença</a> </h5>
+				</div>	
+			
+			</footer>
+		</div>
+
+	</body>
+
+</html>

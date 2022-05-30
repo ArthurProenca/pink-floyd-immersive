@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+
+body{
+	overflow-x: hidden;
+	margin:0px auto;
+	background-color: white;
+	display: table;
+}
+
+*{
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	transition:filter .5s;	
+
+}
+
+a:hover{
+	color: #A90D0F;	
+
+}
+
+div#meio{
+	padding-top: 40%;
+	display: table-cell;
+   	text-align: center;
+   	vertical-align: middle;	
+}
+
+div#meio h1{
+	width: 100%;
+	position: relative;
+	color: #5F54C0;
+	font-family: 'Rock Salt', cursive;
+	font-size: 32pt;
+	text-shadow: 3px 3px #1C1C1C;
+}
+
+div#meio fieldset{
+	border: 3px groove black;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.campo{
+	background-color:white; 
+	height: 25px;
+	margin-top: 30px;
+	margin-left: 10%;	
+	border: 2px groove black;
+}
+
+div#meio input#botao{
+	margin-top: 30px;
+	height: 40px;
+	margin-bottom:30px;
+	background-color: black;
+	border-radius:10px;
+	width:60px;
+	color: white;
+}

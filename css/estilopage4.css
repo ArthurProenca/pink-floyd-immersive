@@ -1,0 +1,102 @@
+header#cabecalho{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+header#cabecalho h1{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	color: white;
+	font-family: 'Khand', sans-serif;
+	font-size: 48pt;
+	animation-duration: 0.5s;
+	animation-name: surgir;
+	text-shadow: 6px 6px #333;
+}
+
+div#fundoNav img{
+	width: 100%;
+	height: 100%;
+  	border-radius: 0 0 15px 15px;
+  	animation-duration: 0.7s;
+	animation-name: surgir; 
+}
+
+div#meio{
+	background-color: #070707;
+	position: relative;
+	width: 100%;
+}
+
+div#meio h1{
+	font-family: 'Khand', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 40pt;
+	text-shadow: 2px 2px #A90D0F;
+}
+
+div#meio p{
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	padding-top: 6%;
+	font-size: 28pt;
+	text-align: center;
+	position: relative;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+div#meio h1#subtitle{
+	padding-top: 6%;
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 48pt;
+
+}
+
+div#meio hr#primeiro{
+	background-color: #A90D0F;	
+}
+
+div#meio hr#segundo{
+	background-color: #F3AB3A;
+}
+
+div#meio hr#terceiro{
+	background-color: #8D2182;
+}
+
+div#meio img#machine{
+	padding-top: 7%;
+	position: relative;
+	transition: 0.5s;
+	width: 40%;
+	height: 40%;
+	left: 30%;
+	z-index: 1; 
+}
+
+div#meio img#machine:hover{
+	border-radius: 100%;
+}
+
+div#meio p#dica{
+	font-size: 12pt;
+	padding-top: 1%;
+}
+
+div#meio img#membros{
+	padding-top: 2%;
+	clear: both;
+	height: 35%;
+	width: 35%;
+	border-radius: 50px;
+	left: 32%;
+	position: relative;
+} 
+
+

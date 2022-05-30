@@ -1,0 +1,73 @@
+header#cabecalho{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+header#cabecalho h1{
+	position: absolute;
+	color: black;
+	font-family: 'Khand', sans-serif;
+	font-size: 48pt;
+	animation-duration: 0.5s;
+	animation-name: surgir;
+	text-shadow: 6px 6px white;
+}
+
+div#fundoNav img{
+	width: 100%;
+	height: 100%;
+  	border-radius: 0 0 15px 15px; 
+}
+
+div#meio{
+	background-color: white;
+	position: relative;
+	width: 100%;
+}
+
+div#meio h1{
+	padding-top: 6%;
+	font-family: 'Khand', sans-serif;
+	text-align: center;
+	color: #170301;
+	font-size: 40pt;
+}
+
+div#meio p{
+	font-family: 'Quicksand', sans-serif;
+	color: #A90D0F;
+	padding-top: 6%;
+	font-size: 30pt;
+	text-align: center;
+	position: relative;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+div#meio h1#subtitle{
+	padding-top: 6%;
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+	color: #170301;
+	font-size: 48pt;
+
+}
+
+div#meio img#machine{
+	padding-top: 7%;
+	position: relative;
+	transition: 0.5s;
+	width: 20%;
+	height: 20%;
+	z-index: 0;
+}
+
+div#meio img#machine:hover{
+	transform: scale(1.4);
+}
+
+div#meio p#dica{
+	font-size: 12pt;
+	padding-top: 1%;
+}

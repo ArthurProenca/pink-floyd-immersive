@@ -1,0 +1,99 @@
+div#interface{
+	width:100%;
+	margin:0px auto;
+	position: relative; 
+
+}
+header#cabecalho{
+	position: relative;
+	width: 100%;
+}
+
+header#cabecalho h1{
+	width: 100%;
+	text-align: center;
+	position: relative;
+	color: #5F54C0;
+	font-family: 'Rock Salt', cursive;
+	font-size: 48pt;
+	animation-duration: 0.5s;
+	animation-name: surgir;
+	text-shadow: 6px 6px #1C1C1C;
+}
+
+div#fundoNav img{
+	width: 100%;
+	animation-duration: 0.7s;
+	animation-name: surgir;
+}
+
+div#meio{
+	background-color: white;
+	position: relative;
+	width: 100%;
+}
+
+div#meio h1{
+	padding-top: 6%;
+	font-family: 'Rock Salt', cursive;
+	text-align: center;
+	color: #5F54C0;
+	font-size: 40pt;
+	text-shadow: 6px 6px #1C1C1C;
+}
+
+div#meio p{
+	font-family: 'Quicksand', sans-serif;
+	color: #1C1C1C;
+	padding-top: 6%;
+	font-size: 30pt;
+	text-align: center;
+	position: relative;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+div#meio h1#subtitle{
+	padding-top: 6%;
+	font-family: 'Rock Salt', cursive;
+	text-align: center;
+	color: #5F54C0;
+	font-size: 48pt;
+	text-shadow: 6px 6px #1C1C1C;
+
+}
+
+div#meio img#machine{
+	padding-top: 4%;
+	position: relative;
+	transition: 0.5s;
+	width: 30%;
+	height: 30%;
+	z-index: 0;
+}
+
+div#meio img#machine:hover{
+	transform: scale(1.4);
+}
+
+div#meio img#membros{
+	padding-top: 2%;
+	clear: both;
+	height: 35%;
+	width: 35%;
+	border-radius: 50px;
+	position: relative;
+}
+
+input#botao{
+	margin-top: 60px;
+	height: 80px;
+	margin-bottom:50px;
+	background-color: #5F54C0;
+	border-radius:40px;
+	width:180px;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18pt;
+
+}
